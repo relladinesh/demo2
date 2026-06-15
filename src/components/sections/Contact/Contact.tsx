@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Mail, MapPin, ArrowRight, Sparkles } from 'lucide-react';
 
 export default function Contact() {
-  const [hovered, setHovered] = useState(false);
 
   return (
     <section id="contact" className="relative w-full bg-[#Fdfbf7] py-24 sm:py-32 px-4 sm:px-8 font-sans overflow-hidden">

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import EditorialHero from './components/sections/Hero/EditorialHero';
 import AboutUs from './components/sections/About/AboutUs';
 import Services from './components/sections/Services/Services';
