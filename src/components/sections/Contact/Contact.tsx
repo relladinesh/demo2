@@ -18,8 +18,6 @@ export default function Contact() {
           viewport={{ once: true }}
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="w-full bg-white/60 backdrop-blur-2xl border border-white rounded-[2.5rem] shadow-[0_20px_60px_rgba(0,0,0,0.03)] p-8 sm:p-12 lg:p-16 flex flex-col lg:flex-row gap-12 lg:gap-16 relative overflow-hidden group"
-          onMouseEnter={() => setHovered(true)}
-          onMouseLeave={() => setHovered(false)}
         >
           {/* Subtle animated background gradient inside the card */}
           <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-1000 pointer-events-none bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-indigo-50/30 via-transparent to-transparent" />

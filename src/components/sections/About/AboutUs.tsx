@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { Cpu, Globe, Zap, Sparkles, MoveRight } from 'lucide-react';
+import { Cpu, Globe, Zap } from 'lucide-react';
 
 export default function AboutUs() {
   const containerRef = useRef<HTMLDivElement>(null);
